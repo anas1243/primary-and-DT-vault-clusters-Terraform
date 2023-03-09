@@ -41,14 +41,14 @@ variable "env" {
   type = string
 }
 
-variable "bastion_host_ami_us-east-1" {
+variable "vms_ami_us-east-1" {
   type = string
 }
 
-variable "bastion_host_machine_type" {
+variable "vms_machine_type" {
   type = string
 }
 
-variable "bastion_host_key_name" {
+variable "vms_key_name" {
   type = string
 }
